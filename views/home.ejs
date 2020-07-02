@@ -113,7 +113,9 @@
             width: 330px ;
             height: 150px;
         }
-  
+        .googlemap iframe{
+            display: block; margin-left: auto; margin-right: auto;
+        }
     </style>
     <body>
         
@@ -186,4 +188,9 @@
             </div>
         </div>
 
+        <div class="googlemap">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3937.5339656306533!2d105.72423951424712!3d9.285864787470977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a1097b9b67df05%3A0x140bcc47501397d4!2zNTUgxJBp4buHbiBCacOqbiBQaOG7pywgUGjGsOG7nW5nIDMsIELhuqFjIExpw6p1LCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1571754424212!5m2!1svi!2s"
+                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
     <%- include('partials/footer') -%>
